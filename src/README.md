@@ -1,61 +1,28 @@
 # MouseProximity
 
+==============
+
 MouseProximity is a JavaScript library for detecting the proximity of the mouse cursor to an HTML element.
 
-```txt
-          Proximity Threshold
-       ______________________
-      |                      |
-      |                      |
-      |                      |
-      |   __________        |
-      |  |  Element  |       |
-      |  |__________ |       |
-      |                      |
-      |______________________|
-```
+## Installation
 
-## Installation Steps
+---
 
-1.  Clone the repository or download the source code:
+You can install MouseProximity using npm:
 
-shellCopy code
+Copy code
 
-`$ git clone https://github.com/adamcrockett/mouse-proximity.git`
+`npm install mouse-proximity`
 
-2.  Change into the project directory:
+Or include the library in your HTML file:
 
-shellCopy code
+htmlCopy code
 
-`$ cd mouse-proximity`
-
-3.  Install the dependencies:
-
-rubyCopy code
-
-`$ npm install`
-
-4.  Start the development server:
-
-rubyCopy code
-
-`$ npm run start`
-
-5.  The application should be available in your browser at `http://localhost:1234`
-
-6.  To build the project for production, run the following command:
-
-rubyCopy code
-
-`$ npm run build`
-
-7.  To run the test suite, run the following command:
-
-shellCopy code
-
-`$ npm run test`
+`<script src="https://unpkg.com/mouse-proximity"></script>`
 
 ## Usage
+
+---
 
 To use MouseProximity, select an HTML element and attach the `mousemove` event listener to it.
 
@@ -83,10 +50,8 @@ The function returns an object with the following properties:
 - `isInside`: Whether the mouse cursor is inside the element or not.
 - `inProximity`: Whether the mouse cursor is in proximity to the element or not.
 
-## Examples
-
-You can find examples of how to use MouseProximity in the examples directory.
-
 ## License
+
+---
 
 MouseProximity is licensed under the MIT license.

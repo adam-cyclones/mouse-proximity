@@ -1,0 +1,30 @@
+{
+  "name": "mouse-proximity",
+  "version": "1.0.0",
+  "description": "A library for detecting mouse proximity to a given HTMLElement",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.6.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "jest": "29.4.1",
+    "typescript": "4.4.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adam-cyclones/mouse-proximity.git"
+  },
+  "keywords": ["proximity", "mouse", "HTMLElement"],
+  "author": "Adam Crockett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adam-cyclones/mouse-proximity/issues"
+  },
+  "homepage": "https://github.com/adam-cyclones/mouse-proximity"
+}
