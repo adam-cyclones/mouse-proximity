@@ -60,7 +60,12 @@ shellCopy code
 To use MouseProximity, select an HTML element and attach the `mousemove` event listener to it.
 
 ```js
-const div = document.querySelector("#my-element"); window.addEventListener("mousemove", ({ clientX: mouseX, clientY: mouseY }) => { const distance = MouseProximity.getDistanceFromEdges(div, 150, { mouseX, mouseY }); console.log(distance); });
+const div = document.querySelector("#my-element");
+
+window.addEventListener("mousemove", ({ clientX: mouseX, clientY: mouseY }) => {
+          const distance = MouseProximity.getDistanceFromEdges(div, 150, { mouseX, mouseY });
+          console.log(distance);
+});
 ```
 
 The `getDistanceFromEdges` function takes the following parameters:
